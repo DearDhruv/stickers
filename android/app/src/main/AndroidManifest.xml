@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.samplestickerapp">
+    package="com.deardhruv.whatsappsticker">
 
     <application
         android:allowBackup="false"
@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        tools:ignore="GoogleAppIndexingWarning">
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:node="merge">
         <activity android:name=".EntryActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,7 +28,7 @@
             tools:ignore="UnusedAttribute">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.samplestickerapp.StickerPackListActivity" />
+                android:value=".StickerPackListActivity" />
         </activity>
         <activity
             android:name=".StickerPackInfoActivity"
@@ -36,14 +37,14 @@
             tools:ignore="UnusedAttribute">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.samplestickerapp.StickerPackDetailsActivity" />
+                android:value=".StickerPackDetailsActivity" />
         </activity>
 
-        <provider
-            android:name=".StickerContentProvider"
-            android:authorities="${contentProviderAuthority}"
-            android:enabled="true"
-            android:exported="true"
-            android:readPermission="com.whatsapp.sticker.READ" />
+        <!--  <provider
+              android:name=".StickerContentProvider"
+              android:authorities="${contentProviderAuthority}"
+              android:enabled="true"
+              android:exported="true"
+              android:readPermission="com.whatsapp.sticker.READ" />-->
     </application>
 </manifest>
