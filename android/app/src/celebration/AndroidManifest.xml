@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.deardhruv.whatsappsticker">
 
-    <application>
+    <application android:icon="@mipmap/ic_launcher">
         <provider
             android:name=".celebration.MyStickerContentProvider"
             android:authorities="${contentProviderAuthority}"
