@@ -30,36 +30,48 @@ android {
             dimension = 'default'
             applicationId = "com.deardhruv.whatsappsticker.celebration"
             resValue "string", "app_name", "Celebration WAStickerApp"
+            resValue "string", "info_screen_tray_icon", "Thanks for downloading Celebration WAStickerApp"
+
             updateConfig()
         }
         love {
             dimension = 'default'
             applicationId = "com.deardhruv.whatsappsticker.love"
             resValue "string", "app_name", "Love WAStickerApp"
+            resValue "string", "info_screen_tray_icon", "Thanks for downloading Love WAStickerApp"
+
             updateConfig()
         }
         popular {
             dimension = 'default'
             applicationId = "com.deardhruv.whatsappsticker.popular"
             resValue "string", "app_name", "Popular WAStickerApp"
+            resValue "string", "info_screen_tray_icon", "Thanks for downloading Popular WAStickerApp"
+
             updateConfig()
         }
         sad {
             dimension = 'default'
             applicationId = "com.deardhruv.whatsappsticker.sad"
             resValue "string", "app_name", "Sad WAStickerApp"
+            resValue "string", "info_screen_tray_icon", "Thanks for downloading Sad WAStickerApp"
+
             updateConfig()
         }
         smile {
             dimension = 'default'
             applicationId = "com.deardhruv.whatsappsticker.smile"
             resValue "string", "app_name", "Smile WAStickerApp"
+            resValue "string", "info_screen_tray_icon", "Thanks for downloading Smile WAStickerApp"
+
             updateConfig()
         }
-        wave {
+        greeting {
             dimension = 'default'
-            applicationId = "com.deardhruv.whatsappsticker.wave"
-            resValue "string", "app_name", "Wave WAStickerApp"
+            applicationId = "com.deardhruv.whatsappsticker.greeting"
+            resValue "string", "app_name", "Greeting WAStickerApp"
+            resValue "string", "info_screen_tray_icon", "Thanks for downloading Greeting WAStickerApp"
+
             updateConfig()
 
         }
@@ -67,6 +79,8 @@ android {
             dimension = 'default'
             applicationId = "com.deardhruv.whatsappsticker.premium"
             resValue "string", "app_name", "Premium WAStickerApp"
+            resValue "string", "info_screen_tray_icon", "Thanks for downloading Premium WAStickerApp"
+
             updateConfig()
         }
     }
@@ -90,7 +104,6 @@ android {
 }
 
 private void updateConfig() {
-    //        def contentProviderAuthority = applicationId + applicationIdSuffix + ".stickercontentprovider"
     def contentProviderAuthority = android.defaultConfig.applicationId + "." + getCurrentFlavor() + ".stickercontentprovider"
     // Creates a placeholder property to use in the manifest.
     android.defaultConfig.manifestPlaceholders =
@@ -109,7 +122,7 @@ def getCurrentFlavor() {
     Gradle gradle = getGradle()
     String tskReqStr = gradle.getStartParameter().getTaskRequests().toString()
 
-    Pattern pattern;
+    Pattern pattern
 
     if (tskReqStr.contains("assemble"))
         pattern = Pattern.compile("assemble(\\w+)(Release|Debug)")
@@ -122,7 +135,7 @@ def getCurrentFlavor() {
         return matcher.group(1).toLowerCase()
     else {
         println "NO MATCH FOUND"
-        return "";
+        return ""
     }
 }
 

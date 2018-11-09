@@ -4,113 +4,223 @@
   "sticker_packs": [
     {
       "identifier": "1",
-      "name": "Cuppy",
-      "publisher": "Jane Doe",
-      "tray_image_file": "tray_Cuppy.png",
-      "publisher_email":"",
-      "publisher_website": "",
+      "name": "Love",
+      "publisher": "DearDhruv",
+      "tray_image_file": "love_deardhruv.png",
+      "publisher_email": "",
+      "publisher_website": "http://deardhruv.com",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
         {
-          "image_file": "01_Cuppy_smile.webp",
-          "emojis": ["☕","🙂"]
+          "image_file": "love_001.webp",
+          "emojis": [
+            "â˜•",
+            "ðŸ™‚"
+          ]
         },
         {
-          "image_file": "02_Cuppy_lol.webp",
-          "emojis": ["😄","😀"]
+          "image_file": "love_002.webp",
+          "emojis": [
+            "â˜•",
+            "ðŸ™‚"
+          ]
         },
         {
-          "image_file": "03_Cuppy_rofl.webp",
-          "emojis": ["😆","😂"]
+          "image_file": "love_003.webp",
+          "emojis": [
+            "â˜•",
+            "ðŸ™‚"
+          ]
         },
         {
-          "image_file": "04_Cuppy_sad.webp",
-          "emojis": ["😩","😰"]
+          "image_file": "love_004.webp",
+          "emojis": [
+            "â˜•",
+            "ðŸ™‚"
+          ]
         },
         {
-          "image_file": "05_Cuppy_cry.webp",
-          "emojis": ["😭","💧"]
+          "image_file": "love_005.webp",
+          "emojis": [
+            "â˜•",
+            "ðŸ™‚"
+          ]
         },
         {
-          "image_file": "06_Cuppy_love.webp",
-          "emojis": ["😍","♥"]
+          "image_file": "love_006.webp",
+          "emojis": [
+            "â˜•",
+            "ðŸ™‚"
+          ]
         },
         {
-          "image_file": "07_Cuppy_hate.webp",
-          "emojis": ["💔","👎"]
+          "image_file": "love_007.webp",
+          "emojis": [
+            "â˜•",
+            "ðŸ™‚"
+          ]
         },
         {
-          "image_file": "08_Cuppy_lovewithmug.webp",
-          "emojis": ["😍","💑"]
+          "image_file": "love_008.webp",
+          "emojis": [
+            "â˜•",
+            "ðŸ™‚"
+          ]
         },
         {
-          "image_file": "09_Cuppy_lovewithcookie.webp",
-          "emojis": ["😘","🍪"]
+          "image_file": "love_009.webp",
+          "emojis": [
+            "â˜•",
+            "ðŸ™‚"
+          ]
         },
         {
-          "image_file": "10_Cuppy_hmm.webp",
-          "emojis": ["🤔","😐"]
+          "image_file": "love_010.webp",
+          "emojis": [
+            "â˜•",
+            "ðŸ™‚"
+          ]
         },
         {
-          "image_file": "11_Cuppy_upset.webp",
-          "emojis": ["😱","😵"]
+          "image_file": "love_011.webp",
+          "emojis": [
+            "â˜•",
+            "ðŸ™‚"
+          ]
         },
         {
-          "image_file": "12_Cuppy_angry.webp",
-          "emojis": ["😡","😠"]
+          "image_file": "love_012.webp",
+          "emojis": [
+            "â˜•",
+            "ðŸ™‚"
+          ]
         },
         {
-          "image_file": "13_Cuppy_curious.webp",
-          "emojis": ["❓","🤔"]
+          "image_file": "love_013.webp",
+          "emojis": [
+            "â˜•",
+            "ðŸ™‚"
+          ]
         },
         {
-          "image_file": "14_Cuppy_weird.webp",
-          "emojis": ["🌈","😜"]
+          "image_file": "love_014.webp",
+          "emojis": [
+            "â˜•",
+            "ðŸ™‚"
+          ]
         },
         {
-          "image_file": "15_Cuppy_bluescreen.webp",
-          "emojis": ["💻","😩"]
+          "image_file": "love_015.webp",
+          "emojis": [
+            "â˜•",
+            "ðŸ™‚"
+          ]
         },
         {
-          "image_file": "16_Cuppy_angry.webp",
-          "emojis": ["😡","😤"]
+          "image_file": "love_016.webp",
+          "emojis": [
+            "â˜•",
+            "ðŸ™‚"
+          ]
         },
         {
-          "image_file": "17_Cuppy_tired.webp",
-          "emojis": ["😩","😨"]
+          "image_file": "love_017.webp",
+          "emojis": [
+            "â˜•",
+            "ðŸ™‚"
+          ]
         },
         {
-          "image_file": "18_Cuppy_workhard.webp",
-          "emojis": ["💻","🌃"]
+          "image_file": "love_018.webp",
+          "emojis": [
+            "â˜•",
+            "ðŸ™‚"
+          ]
         },
         {
-          "image_file": "19_Cuppy_shine.webp",
-          "emojis": ["🎉","✨"]
+          "image_file": "love_019.webp",
+          "emojis": [
+            "â˜•",
+            "ðŸ™‚"
+          ]
         },
         {
-          "image_file": "20_Cuppy_disgusting.webp",
-          "emojis": ["🤮","👎"]
+          "image_file": "love_020.webp",
+          "emojis": [
+            "â˜•",
+            "ðŸ™‚"
+          ]
         },
         {
-          "image_file": "21_Cuppy_hi.webp",
-          "emojis": ["🖐","🙋"]
+          "image_file": "love_021.webp",
+          "emojis": [
+            "â˜•",
+            "ðŸ™‚"
+          ]
         },
         {
-          "image_file": "22_Cuppy_bye.webp",
-          "emojis": ["🖐","👋"]
+          "image_file": "love_022.webp",
+          "emojis": [
+            "â˜•",
+            "ðŸ™‚"
+          ]
         },
         {
-          "image_file": "23_Cuppy_greentea.webp",
-          "emojis": ["🍵","😌"]
+          "image_file": "love_023.webp",
+          "emojis": [
+            "â˜•",
+            "ðŸ™‚"
+          ]
         },
         {
-          "image_file": "24_Cuppy_phone.webp",
-          "emojis": ["📱","😦"]
+          "image_file": "love_024.webp",
+          "emojis": [
+            "â˜•",
+            "ðŸ™‚"
+          ]
         },
         {
-          "image_file": "25_Cuppy_battery.webp",
-          "emojis": ["🔋","😵"]
+          "image_file": "love_025.webp",
+          "emojis": [
+            "â˜•",
+            "ðŸ™‚"
+          ]
+        },
+        {
+          "image_file": "love_026.webp",
+          "emojis": [
+            "â˜•",
+            "ðŸ™‚"
+          ]
+        },
+        {
+          "image_file": "love_027.webp",
+          "emojis": [
+            "â˜•",
+            "ðŸ™‚"
+          ]
+        },
+        {
+          "image_file": "love_028.webp",
+          "emojis": [
+            "â˜•",
+            "ðŸ™‚"
+          ]
+        },
+        {
+          "image_file": "love_029.webp",
+          "emojis": [
+            "â˜•",
+            "ðŸ™‚"
+          ]
+        },
+        {
+          "image_file": "love_030.webp",
+          "emojis": [
+            "â˜•",
+            "ðŸ™‚"
+          ]
         }
       ]
     }
