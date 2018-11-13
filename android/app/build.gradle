@@ -19,14 +19,16 @@ android {
         applicationId "com.deardhruv.whatsappsticker"
         minSdkVersion 18
         targetSdkVersion 28
-        versionCode 3
-        versionName "1.0.2"
+        versionCode 4
+        versionName "1.0.2.2"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
     flavorDimensions "default"
     productFlavors {
         celebration {
+            versionCode 4
+            versionName "1.0.2.1"
             dimension = 'default'
             applicationId = "com.deardhruv.whatsappsticker.celebration"
             resValue "string", "app_name", "Celebration WAStickerApp"
@@ -67,6 +69,8 @@ android {
             updateConfig()
         }
         greeting {
+            versionCode 5
+            versionName "1.0.2.2"
             dimension = 'default'
             applicationId = "com.deardhruv.whatsappsticker.greeting"
             resValue "string", "app_name", "Greeting WAStickerApp"
