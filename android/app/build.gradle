@@ -69,8 +69,8 @@ android {
             updateConfig()
         }
         greeting {
-            versionCode 5
-            versionName "1.0.2.2"
+            versionCode 6
+            versionName "1.0.2.3"
             dimension = 'default'
             applicationId = "com.deardhruv.whatsappsticker.greeting"
             resValue "string", "app_name", "Greeting WAStickerApp"
