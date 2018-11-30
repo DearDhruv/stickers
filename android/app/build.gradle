@@ -31,7 +31,7 @@ android {
             versionName "1.0.3.0"
             dimension = 'default'
             applicationId = "com.deardhruv.whatsappsticker.celebration"
-            resValue "string", "app_name", "Celebration Love WAStickerApp"
+            resValue "string", "app_name", "Celebration WAStickerApp"
             resValue "string", "info_screen_tray_icon", "Thanks for downloading Celebration WAStickerApp"
 
             updateConfig()
@@ -69,12 +69,12 @@ android {
             updateConfig()
         }
         greeting {
-            versionCode 7
-            versionName "1.0.3.0"
+            versionCode 8
+            versionName "1.0.3.1"
             dimension = 'default'
             applicationId = "com.deardhruv.whatsappsticker.greeting"
-            resValue "string", "app_name", "Greeting WAStickerApp"
-            resValue "string", "info_screen_tray_icon", "Thanks for downloading Greeting WAStickerApp"
+            resValue "string", "app_name", "Greeting & Love WAStickerApp"
+            resValue "string", "info_screen_tray_icon", "Thanks for downloading Greeting & Love WAStickerApp"
 
             updateConfig()
 
