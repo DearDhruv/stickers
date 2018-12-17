@@ -19,7 +19,7 @@ android {
         applicationId "com.deardhruv.whatsappsticker"
         minSdkVersion 18
         targetSdkVersion 28
-        versionCode 4
+        versionCode 5
         versionName "1.0.2.2"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
@@ -69,8 +69,8 @@ android {
             updateConfig()
         }
         greeting {
-            versionCode 8
-            versionName "1.0.3.1"
+            versionCode 10
+            versionName "1.0.4.0"
             dimension = 'default'
             applicationId = "com.deardhruv.whatsappsticker.greeting"
             resValue "string", "app_name", "Greeting & Love WAStickerApp"
